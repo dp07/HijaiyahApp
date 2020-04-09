@@ -1,0 +1,60 @@
+
+/*gambar soal*/
+.kotak-soal {
+	height: 200px;
+	width: 150px;
+	margin: 10px auto;
+	background-color: green;
+}
+
+.kotak-soal img {
+	height: 200px;
+	width: 150px;
+	border: 5px #FFC107 solid;
+	margin: 0px auto 0px;
+}
+
+/*jawaban*/
+/*.kotak-jawaban {
+	width: 920px;
+	margin: auto;
+}*/
+.kotak-jawaban ul li {
+	width: 100px;
+	list-style-type: none;
+	display: inline-block;
+	background-color: #FFC107;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.kotak-jawaban ul li:hover {
+	background-color: green;
+	cursor: pointer;
+}
+
+.kotak-jawaban ul li:active {
+	cursor: pointer;
+}
+
+/*tombol next*/
+.tnext {
+	height: 40px;
+}
+
+/*kotak-hasil*/
+.kotak-hasil {
+	height: 100px; 
+	width: 300px; 
+	margin: auto;
+	background-color: #FFC107;
+	border-radius: 10px;
+}
+
+.hasil {
+	line-height: 100px;
+	text-align: center;
+}

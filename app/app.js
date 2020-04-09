@@ -22,18 +22,18 @@ app.on('ready', function () {
       nodeIntegration: true
     },
 
-    icon: __dirname + '/assets/img/icon.ico'
+    // icon: __dirname + '/assets/img/icon.ico'
   });
   mainWindow.maximize();
   mainWindow.show();
 
   // and load the index.html of the app.
-  mainWindow.loadURL('file://' + __dirname + '/views/switjawa.html');
-  mainWindow.setFullScreen(true);
-  mainWindow.removeMenu();
+  mainWindow.loadURL('file://' + __dirname + '/views/game.html');
+  // mainWindow.setFullScreen(true);
+  // mainWindow.removeMenu();
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -42,4 +42,4 @@ app.on('ready', function () {
     // when you should delete the corresponding element.
     mainWindow = null;
   });
-});
+}); 
