@@ -83,7 +83,7 @@ pilihan.forEach(function(pil){
 				info.style.color = 'red';
 				pil.style.backgroundColor = 'red';
 				score -= 1;
-				jmlScore.innerHTML = 'Score: ' + score ;
+				jmlScore.innerHTML = 'Skor: ' + score ;
 				
 			} else {
 				info.innerHTML = hasil;
@@ -91,14 +91,20 @@ pilihan.forEach(function(pil){
 				pil.style.backgroundColor = 'green';
 				if(lock == 'buka'){
 					score += 3;
-					jmlScore.innerHTML = 'Score: ' + score ;
+					jmlScore.innerHTML = 'Skor: ' + score ;
 					lock = 'tutup';
 				}
 			}
-			// score
-			console.log(score);
 		});
 });
+
+
+// redirect tombol materi
+const tMateri = document.querySelector('.redirect');
+tMateri.onclick = function(){
+	return window.location.href = "materi.html";
+}
+
 
 
 

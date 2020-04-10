@@ -20,12 +20,12 @@
 	margin: auto;
 }*/
 .kotak-jawaban ul li {
-	width: 100px;
+	width: 110px;
 	list-style-type: none;
 	display: inline-block;
 	background-color: #FFC107;
 	padding: 5px;
-	margin: 10px;
+	margin: 5px 15px;
 	text-align: center;
 	box-sizing: border-box;
 	border-radius: 10px;
@@ -57,4 +57,23 @@
 .hasil {
 	line-height: 100px;
 	text-align: center;
+}
+
+-------------------------------------------
+.thumbnail {
+	height: 150px;
+}
+
+.thumbnail img {
+	width: 73.2px;
+	height: 110px;
+	margin: 2px 1px;
+	box-sizing: border-box;
+	border: 2px solid #FFC107;
+}
+
+.thumbnail img:hover {
+	cursor: pointer;
+	box-shadow: -2px -2px 3px #FFC107;
+	opacity: 0.5;
 }
