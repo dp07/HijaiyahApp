@@ -23,7 +23,7 @@
     "release": "build"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "sqlite3": "^4.0.9",
     "sweetalert2": "^9.7.2"
   },
